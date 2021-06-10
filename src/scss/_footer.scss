@@ -1,0 +1,11 @@
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  max-width: 26.875rem; //430px
+  background-color: $primaryWhite;
+
+  img{
+    margin-bottom: -0.4rem; //6px
+  }
+}

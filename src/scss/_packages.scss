@@ -1,0 +1,45 @@
+main .packages{
+  width: calc(100% - 6.25rem); //100px
+  //  Account for screen size
+
+  &__head{
+    margin: 3vh auto;
+  }
+  &__head h2{
+    color: $primaryOrange;
+    letter-spacing: 0.125rem; //2px
+  }
+
+  &__list{
+    position: relative;
+  }
+  &__item{
+    margin: 2rem auto;
+  }
+  &__item__cost{
+    position: absolute;
+    height: 3.75rem; //60px
+    width: 3.75rem; //60px
+    color: $primaryWhite;
+    font-weight: lighter;
+    background: $primaryOrange;
+    border-radius: 50%;
+    box-shadow: 0 0.25rem 0.625rem rgba(209, 92, 23, 0.4); //0 4px 10px
+  }
+  &__item__duration{
+    width: 100%;
+    border: none;
+    background: $primaryGray;
+    color: $primaryWhite;
+    border-radius: 1.875rem; //30px
+    box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.25);//0 4px 10px
+
+    &:hover{
+      color: $primaryOrange;
+      background: $lightGray;
+    }
+    
+  }
+
+
+}
