@@ -1,6 +1,35 @@
 .header{
   position: fixed;
   width: 100vw;
+  height: 100px;
   max-width: 26.875rem; //430px
   z-index: 1;
+  background-position: bottom;
+  background-size: cover;
+
+  .link{
+    margin-left: 1rem;
+    
+  }
+  .link img{
+    height: 60px;
+    margin-top: 0.5rem;
+  }
+
+  &.header-index{
+    background-image: url(./../../assets/images/header_1.png);
+  }
+  &.header-packages{
+    background-image: url(./../../assets/images/header_2.png);
+  }
+  &.header-pay{
+    background-image: url(./../../assets/images/header_3.png);
+  }
+  &.header-stk{
+    background-image: url(./../../assets/images/header_3.png);
+  }
+  &.header-rent{
+    background-image: url(./../../assets/images/header_4.png);
+  }
 }
+

@@ -67,25 +67,6 @@ body {
     align-items: center;
   }
 }
-
-// div hide for mobile
-// div class="h"
-// visibility
-.hide-for-mobile {
-  @include breakpoint-down(medium) {
-    display: none !important;
-  }
-}
-.hide-for-small {
-  @include breakpoint-down(small) {
-    display: none !important;
-  }
-}
-.hide-for-desktop {
-  @include breakpoint-up(large) {
-    display: none;
-  }
-}
 .btn {
   height: 2.5rem; //40px
   font-family: Roboto, 'Open Sans', 'Helvetica Neue', monospace, sans-serif;
@@ -112,7 +93,7 @@ body {
 .container {
   width: 100vw;
   max-width: 26.875rem; // 430px
-  height: calc(100vh - 5.8125rem); //93px
+  height: calc(100vh - 50px); //93px
   padding-bottom: 2rem; //32px
   background: $primaryWhite;
   overflow-x: hidden;

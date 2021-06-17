@@ -4,30 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Duma Air Hotspot | Pay</title>
-    <meta name="title" content="" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta property="og:type" content="" />
-    <meta property="og:url" content="/" />
-    <meta property="og:title" content="" />
-    <meta property="og:description" content="" />
-    <meta property="og:image" content="/og-image.png" />
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="" />
-    <meta property="twitter:title" content="" />
-    <meta property="twitter:description" content="" />
-    <meta property="twitter:image" content="/twitter-image.png" />
+    <meta name="title" content="Duma Air Hotspot - Pay" />
 
     <!-- favicon -->
     <link rel="icon" type="image/png" href="/favicon.png" />
 
     <!-- css styles -->
-    <link rel="stylesheet" href="./src/css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
   </head>
 <body class="flex al-c flex-col">
   <div class="container flex flex-col">
-    <header class="header">
-      <img class="img header__image" src="./assets/images/header_banner_2.png" alt="Duma Tel Africa Banner">
+    <header class="header header-pay">
+      <a class="link" href="/">
+        <img src="./assets/images/voucher_banner.png" alt="" srcset="">
+      </a>
     </header>
     <main class="main flex flex-col jc-sa al-c text-center">
       <section class="pay">
@@ -53,8 +44,30 @@
         </div>    
       </section>
     </main> 
-    <footer class="footer">
-      <img class="img" src="./assets/images/footer_banner.png" alt="Dumatel Africa Contact">
+    <footer class="footer flex al-c jc-sb">
+      <div class="footer__call flex al-c">
+        <a class="link" href="https://api.whatsapp.com/send?phone=+254717888222" target="_blank">
+          <img src="./assets/images/wa-logo.ico" alt="WhatsApp logo">
+        </a>
+        <div class="footer__call-details">
+          <p>Get connected Today</p>
+          <a class="link" href="tel:+254717888222">0717 888 222</a>
+        </div>
+      </div>
+      <div class="footer__socials flex flex-col jc-c">
+        <p>Dumatel Africa</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/dumatelafrica/" class="link" target="_blank">
+            <i class="fab fa-facebook-square" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.instagram.com/dumatelafrica/?hl=en" class="link" target="_blank">
+            <i class="fab fa-instagram-square" aria-hidden="true"></i>
+          </a>
+          <a href="https://ke.linkedin.com/company/dumatel-africa" class="link" target="_blank">
+            <i class="fab fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
     </footer>
   </div>
 </body>

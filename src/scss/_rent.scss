@@ -2,22 +2,23 @@
   position: relative;
 
   &__banner{
-    width: 100%;
     position: static;
     margin-top: -2rem; //-32px
   }
 
   &__body{
     width: calc(100% - 6.25rem); //100px
-    margin-top: 1rem;
+    margin-top: 1rem; //16px
   }
+
   &__body .form{
     margin: 1rem auto; //16px
 
-    *{
+    .form-control, p, .btn.btn-primary{
       margin: 0.5rem auto; //8px
     }
   }
+
   &__body .form label, p{
     color: $primaryDark;
   }

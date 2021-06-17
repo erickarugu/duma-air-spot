@@ -1,11 +1,54 @@
 .footer{
   position: fixed;
   bottom: 0;
+  padding: 2rem 1rem 1rem;
   width: 100vw;
   max-width: 26.875rem; //430px
-  background-color: $primaryWhite;
+  // background-color: $primaryOrange;
+  background-image: url(./../../assets/images/footer_1.png);
+  background-position: center;
+  background-size: cover;
 
-  img{
-    margin-bottom: -0.4rem; //6px
+  .link{
+    transition: opacity 300ms ease;
+    &:hover{
+      opacity: 0.9;
+    }
   }
+  &__call{
+    img{
+      height: 35px;
+    }
+    &-details{
+      color: $primaryWhite;
+      margin-left: 0.5rem;
+      p{
+        font-size: 0.5rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+      a{
+        color: $primaryWhite;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  &__socials{
+    color: $primaryWhite;
+
+    p{
+      font-size: 0.8rem;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    a{
+      margin: auto 0.2rem;
+    }
+    .link{
+      color: $primaryWhite
+    }
+  }
+
 }
